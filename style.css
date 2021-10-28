@@ -1,0 +1,47 @@
+body{
+    /* background: #000000;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #434343, #000000);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #524e4e, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("./Imagenes/wallpaperflare.com_wallpaper\ \(2\).jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Press Start 2P", cursive;
+    color: rgb(208, 228, 29);
+    /* color: rgb(231, 127, 245); */
+    text-shadow: 2px 2px 5px rgb(100, 110, 11);
+    /* text-shadow: 2px 2px 6px rgb(9, 17, 19); */
+}
+
+.text-center{
+    margin-top: 4rem;
+}
+
+p{
+    font-family: "Ubunto", cursive;
+    color: rgb(208, 109, 218);
+    text-shadow: 2px 2px 2px rgb(1, 1, 2);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.text-center{
+    margin-bottom: 2rem;
+}
+
+ul{
+    list-style: none;
+    margin-top: 2rem;
+    /* border-top: 2px solid white; */
+    /* display: none; */
+}
+
+.list-group-item{
+    margin-bottom: 0.3rem ;
+    color: white;
+}
+
