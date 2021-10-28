@@ -6,7 +6,6 @@ class ToDoApp {
         this.input = document.getElementById("input")
         this.btn = document.getElementById("button-addon2")
         this.list = document.getElementById("list")
-        this.count = 1 
         this.addTask()
 
     }
@@ -22,7 +21,7 @@ class ToDoApp {
                 const text = input.value
                 console.log(text)
                 text1.innerHTML = `<li id="li" class="list-group-item list-group-item-action list-group-item-info">
-                                <input id="box" class="form-check-input me-1" type="checkbox" name="lista" value="${this.id}" aria-label="...">
+                                <input id="box" class="form-check-input me-1" type="checkbox" name="lista" value="" aria-label="...">
                                 ${text}
                                 </li>`
 
@@ -33,7 +32,6 @@ class ToDoApp {
                 // </li>`
                 document.getElementById("list").appendChild(text1)
                 // list.innerHTML = list.innerHTML + item
-                this.id += 1
                 form.reset()
             }
 
